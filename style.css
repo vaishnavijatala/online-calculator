@@ -1,0 +1,82 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Display styling */
+#display {
+    width: 250px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: right;
+    padding-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #e8ecef;
+}
+
+/* Calculator container */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    margin: auto;
+}
+
+/* Row container */
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Button styling */
+.btn {
+    width: 55px;
+    height: 50px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+/* Button colors */
+.clear {
+    background: #e74c3c; /* Red */
+    color: white;
+    flex: 2;
+}
+
+.number {
+    background: #3498db; /* Blue */
+    color: white;
+}
+
+.operator {
+    background: #f39c12; /* Orange */
+    color: white;
+}
+
+.equal {
+    background: #2ecc71; /* Green */
+    color: white;
+}
+
+/* Zero button wider */
+.zero {
+    flex: 2;
+}
+
+/* Button hover effect */
+.btn:hover {
+    opacity: 0.8;
+}
